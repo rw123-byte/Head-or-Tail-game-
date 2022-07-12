@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" ./assets/phone.css ">
+    <link rel="stylesheet " href="./assets/tablet.css ">
+    <link rel="stylesheet " href="./assets/styles.css ">
+    <title>Head or Tail </title>
+</head>
+
+<body>
+    <h2>HEADS OR TAILS GAME</h2>
+    <h2>LETS PLAY THIS AWESOME GAME😊😁</h2>
+    <div>
+        Round: <span id="rounds "></span> <br> <br>
+        <img src="./assets/images/head-side.png " alt="Head-side ">
+        <img src="./assets/images/tail-side.png " alt="Tail-side ">
+        <br> <br>
+        <span>Player: </span>
+        <button onclick="player( 'Head') ">Head</button>
+        <span>Computer:</span> <span id="comp "></span>
+        <button onclick="player( 'Tail') ">Tail</button>
+        <br> <br>
+        <span>Outcome: </span> <strong><span id="outcome "></span></strong>
+        <br> <br> PlayerCount:
+        <span id="playerCount "></span>
+        <br> ComputerCount:
+        <span id="computerCount "></span>
+        <p id="result "></p>
+        <button onclick="restart() ">Restart</button>
+    </div>
+    <script src="./assets/main.js "></script>
+</body>
+
+</html>
